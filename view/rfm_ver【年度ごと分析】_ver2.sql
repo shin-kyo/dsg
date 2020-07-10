@@ -1,6 +1,6 @@
 with ap as --★休眠期間算出用。本誌申込履歴を代表カスタマー単位にし、指定期間の最新日付を取得している
 (
-asdkfj;asdj;flajs;dkfj
+
 SELECT
 		wkc.customer_code_master
 	,	max(TO_DATE(TO_CHAR(ap.application_ymd_hms, 'YYYY-MM-DD'),'YYYY-MM-DD')) as application_ymd --本誌申込日
